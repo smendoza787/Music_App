@@ -1,3 +1,5 @@
+// example: http://jsfiddle.net/JMPerez/0u0v7e1b/
+
 var clientID = "4f95b2df65354b3e9505871923b773f2";
 var clientSecret = "879c77cf7116410baefca1845b9affd1";
 

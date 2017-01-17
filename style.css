@@ -12,18 +12,19 @@ body {
   flex-flow: row;
   flex-wrap: nowrap;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
 
 }
 #searchBox {
   outline: none;
   border: none;
   border-radius: 500px;
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 10px;
   text-align: center;
   color: rgba(26,178,107, 0.4);
   box-shadow: 0px 2px 1px rgba(0,0,0, 0.5);
+  width: 60%;
 }
 
 #searchBox:active {
@@ -50,17 +51,29 @@ body {
   border-radius: 100%;
   border: none;
   background-color: rgba(255,255,255,0.3);
-  font-size: 2.5rem;
+  font-size: 2.25em;
   padding: 10px;
   width: 80px;
   height: 80px;
   margin-left: 1rem;
   color: rgb(255,255,255);
   box-shadow: 0px 2px 1px rgba(0,0,0, 0.5);
+  cursor: pointer;
 }
 
 img {
+  width: 75%;
   max-width: 500px;
   display: block;
   margin: 0 auto;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 700px) {
+  #searchBox {
+    font-size: 1.5em;
+    padding: 5px;
+  }
 }

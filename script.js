@@ -10,7 +10,7 @@ var test = new XMLHttpRequest();
 // set a GET request
 test.open('GET', 'https://api.spotify.com/v1/albums/0sNOF9WDwhWunNAHPD3Baj');
 // send the GET request
-test.send()
+test.send(null);
 // set a variable to the responseText and turn it into an Object
 function log() {
   console.log(test.response);
@@ -18,3 +18,7 @@ function log() {
 log();
 // var testObj = test.response;
 // testObj = JSON.parse(test.response);
+
+var searchBox = document.getElementById('searchBox').onclick = function() {
+  this.style.boxShadow = "0px 3px 5px rgba(0,0,0, 0.5)";
+}

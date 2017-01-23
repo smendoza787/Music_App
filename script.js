@@ -10,9 +10,15 @@ var test = new XMLHttpRequest();
 // set a GET request
 test.open("GET", "https://api.spotify.com/v1/albums/0sNOF9WDwhWunNAHPD3Baj");
 // send the GET request
+
 //test.setRequestHeader("Accept", "application/json");
-test.send(null); // maybe need "null", not sure (works without it)
+//test.send(null); // maybe need "null", not sure (works without it)
 // set a variable to the responseText and turn it into an Object
+//test.setRequestHeader('Accept','text/JSON');
+//test.send(null);
+
+//console.log(test.response.album);
+
 
 //var testObj = JSON.parse(test.responseText);
 //console.log(testObj);

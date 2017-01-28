@@ -22,7 +22,7 @@ body {
   outline: none;
   border: none;
   border-radius: 500px;
-  font-size: 2rem;
+  font-size: 1.75em;
   padding: 10px;
   text-align: center;
   color: #424242;
@@ -81,11 +81,25 @@ img {
   margin: 0 auto;
 }
 
-.welcome {
+.welcome,
+.underWelcome {
   font-family: 'Signika', sans-serif;
   text-align: center;
-  padding: 60px;
-  font-size: 2.1em;
+  padding: 50px;
+  font-size: 2.25em;
+  background-color: #000;
+  color: white;
+  border-radius: 3px;
+}
+
+.underWelcome {
+  background-color: #212121;
+  font-size: 2em;
+}
+
+.underWelcome a {
+  color: rgb(26,178,107);
+  text-decoration: none;
 }
 
 

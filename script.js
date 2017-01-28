@@ -27,6 +27,12 @@ test.open("GET", "https://api.spotify.com/v1/albums/0sNOF9WDwhWunNAHPD3Baj");
 //   this.style.boxShadow = "0px 3px 5px rgba(0,0,0, 0.5)";
 // }
 
-notes: fetch ( use promises (access from them when good) )
-- the problem now is the code is running without getting what it needs, so you get nothing or undefined
-- fetch will place the info in a placeholder, then once it gets the info, it will give me what I want ( something like that )
+// notes: fetch ( use promises (access from them when good) )
+// - the problem now is the code is running without getting what it needs, so you get nothing or undefined
+// - fetch will place the info in a placeholder, then once it gets the info, it will give me what I want ( something like that )
+
+var results = document.getElementById('results');
+
+function showResults() {
+  results.innerHTML = 'poop';
+}
